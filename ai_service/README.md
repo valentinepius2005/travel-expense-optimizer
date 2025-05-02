@@ -1,15 +1,28 @@
-# ✈️ AI Travel Predictor - Microservice
+# ✈️ Travel Expense Optimizer
 
-This microservice powers the AI features in the **Travel Expense Optimizer** app. It predicts optimal booking prices based on historical travel patterns using a trained ML model.
+An AI-powered full-stack web application to help users optimize their travel budgets with smart insights, real-time deals, and expense tracking.
 
-### 🧠 Features
-- Predict cheapest booking price
-- Suggest if you should book now or later (future enhancement)
-- Preprocessing and feature engineering included
+## 🚀 Features
 
-### 🚀 How to Run
+- 🧠 AI suggestions to reduce travel expenses  
+- 💡 Smart travel deals and savings tips  
+- 📊 Expense vs Budget visualizations  
+- 📨 Daily email summary (Node Cron)  
+- 🔐 Secure authentication (coming soon)  
+- 🌍 PWA support for offline usage  
+
+## 🛠 Tech Stack
+
+**Frontend**: React, TailwindCSS, Vite  
+**Backend**: Node.js, Express, MongoDB  
+**AI/ML**: Python Flask (for predictions), OpenAI API  
+**Email**: Nodemailer with Scheduler  
+**Deployment**: GitHub, Vercel, Railway (or Render)
+
+## 🧪 Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-pip install -r requirements.txt
-python app.py
- 
+git clone https://github.com/valentinepius2005/travel-expense-optimizer.git
+cd travel-expense-optimizer
